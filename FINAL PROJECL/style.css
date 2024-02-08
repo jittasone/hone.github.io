@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 20px 10%;
+}
+.logo a{
+    font-size: 30px;
+    letter-spacing: 1.2px;
+}
+.logo a span{
+    color: orange;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: #111;
+    font-size: 20px;
+    margin-right: 30px;
+    transition: .5s ease;
+}
+.navlist a:hover,
+.nav-icon i:hover{
+    color: orange;
+}
+.nav-icon{
+font-size: 23px;
+margin-right: 20px;
+transition: .5s ease;
+cursor: pointer;
+}
+.menu{
+    display: none;
+}
+.menu i{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+section{
+    padding: 80px 10%;
+}
+.home{
+    padding-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.home-text h3{
+    font-size: 20px;
+    margin-bottom: 7px;
+    font-weight: 400;
+}
+.home-text h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.home-text h1 span{
+    color: orange;
+}
+.home-text h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: 400;
+}
+.home-text a.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: orange;
+    transition: .5s ease;
+    overflow: hidden;
+}
+.home-text a.btn:hover{
+    transform: scale(0.9);
+}
+.home-img{
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+}
+
+/* menu style */
+
+.head h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 90px;
+}
+.head h2 span{
+    color: orange;
+}
+.menu-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 1rem;
+    justify-content: center;
+}
+
+.menu1 img{
+    max-width: 100%;
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
+.content{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.content h4{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.content i{
+    color: orange;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+/* about style */
+
+.about-content{
+    display: flex;
+    gap: 2rem;
+}
+.about-img img{
+    width: 450px;
+    height: auto;
+    flex: 1 1 40em;
+}
+
+
+/* chef style */
+
+.chef-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    justify-content: center; 
+    align-items: center;
+}
+.chef-c{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.chef-c img{
+    width: 400px;
+    height: 400px;
+    object-fit: contain; 
+}
+.chef-c h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.social-icon i{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    padding: 10px;
+    transition: .5s ease;
+    font-size: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social-icon i:hover{
+    color: orange;
+}
+
+/* contact style */
+
+form{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background: #fff;
+padding: 20px;
+}
+label{
+    text-align: left;
+    margin-bottom: 10px;
+}
+form input,
+textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+textarea{
+    resize: none;
+    height: 300px;
+}
+
+button{
+    background: #ffc107;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border: 1px solid  #ffc107;
+    transition: .5s ease;
+    cursor: pointer;
+    padding: 10px;
+}
+button:hover{
+    background: #ccc;
+    border: 1px solid #ccc;
+}
